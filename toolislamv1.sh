@@ -22,7 +22,7 @@ echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " 4. DEFACE WEBDAV"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    "╭─[PILIH NOMERNYA]"
-read -p "╰─root@./MR_XID=" saf;
+read -p "╰─root@./MR_XID=" sf;
 
 if [ $saf = 1 ] || [ $saf = 1 ]
 then
@@ -78,7 +78,7 @@ echo "itulah hukum karma bagi islam "
 sleep 1
 echo "sekian Asalamualaikum"
 fi 
-if [ $saf = 2 ] || [ $saf = 2 ]
+if [ $sf = 2 ] || [ $sf = 2 ]
 then 
 pkg update && pkg upgrade
 pkg install git
@@ -88,7 +88,7 @@ sleep 1
 sh LITESPAM.sh
 echo "langsung santet mantan :v" | lolcat
 fi
-if [ $saf = 3 ] || [ $saf = 3 ]
+if [ $sf = 3 ] || [ $sf = 3 ]
 then 
 pkg update 
 pkg upgrade 
@@ -100,7 +100,7 @@ chmod 7777 hammer.py
 sleep 1
 python hammer.py 
 fi
-if [ $saf = 4 ] || [ $saf = 4 ]
+if [ $sf = 4 ] || [ $sf = 4 ]
 then 
 apt update && apt upgrade
 apt install python2
