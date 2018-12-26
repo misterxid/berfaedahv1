@@ -117,14 +117,6 @@ sleep 1
 chmod 777 webdav.py
 echo "terinstall bos " | lolcat
 fi 
-if [ $saf = 00 ] || [ $saf = 00 ]
-then 
-echo "mau keluar ya kak "
-sleep 1
-echo "yaudah kalo keluar sampai jumpa kak "
-echo " tunggu update lagi ya"
-sleep 1
-echo "Asalamualaikum"
-fi 
+if [ $saf = 00 ] || [ $saf = 00 ]. 
 exit
 fi
