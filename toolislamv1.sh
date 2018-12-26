@@ -2,15 +2,15 @@
 #malulah dengan dirimu
 
 figlet MR_XID  | lolcat
-
-echo                    " [======<>======<>======<>======]"|lolcat
-echo                    " [Author   :  MR_XiD            ]"|lolcat
-echo                    " [Team     : JATIM BLACKHAT     ]"|lolcat
-echo                    " [Note     : Jangan reqode ya   ]"|lolcat
-echo                    " [Thansk to: All member         ]"|lolcat
-echo                    " [thanks to: D35TR0Y SQUAD      ]"|lolcat
-echo                    " [Note2    : Copyright©MR_XID   ]"
-echo                    " [======<>======<>======<>======]"|lolcat
+ 
+echo                      " [======<>======<>======<>======]"|lolcat
+echo                      " [Author   :  MR_XiD            ]"|lolcat
+echo                      " [Team     : JATIM BLACKHAT     ]"|lolcat
+echo                      " [Note     : Jangan reqode ya   ]"|lolcat
+echo                      " [Thansk to: All member         ]"|lolcat
+echo                      " [thanks to: D35TR0Y SQUAD      ]"|lolcat
+echo                      " [Note2    : Copyright©MR_XID   ]"
+echo                      " [======<>======<>======<>======]"|lolcat
 
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>" | lolcat
 echo    " 1. TOOLS ISLAM "
@@ -80,6 +80,7 @@ echo "sekian Asalamualaikum"
 fi 
 if [ $saf = 2 ] || [ $saf = 2 ]
 then 
+pkg update && pkg upgrade
 pkg install git
 git clone https://github.com/4L13199/LITESPAM
 cd LITESPAM
