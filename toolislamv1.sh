@@ -80,8 +80,6 @@ echo "sekian Asalamualaikum"
 fi 
 if [ $sf = 2 ] || [ $sf = 2 ]
 then 
-pkg update && pkg upgrade
-pkg install git
 git clone https://github.com/4L13199/LITESPAM
 cd LITESPAM
 sleep 1
@@ -90,10 +88,6 @@ echo "langsung santet mantan :v" | lolcat
 fi
 if [ $sf = 3 ] || [ $sf = 3 ]
 then 
-pkg update 
-pkg upgrade 
-pkg install python 
-pkg install git 
 git clone https://github.com/cyweb/hammer 
 cd hammer 
 chmod 7777 hammer.py
