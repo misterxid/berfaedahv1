@@ -21,6 +21,8 @@ echo    " 3. HAMMER DDOS "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " 4. DEFACE WEBDAV"
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
+echo    " 00. EXIT "
+echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    "╭─[PILIH NOMERNYA]"
 read -p "╰─root@./MR_XID=" saf;
 
@@ -114,5 +116,15 @@ mv HnVyQPtR webdav.py
 sleep 1
 chmod 777 webdav.py
 echo "terinstall bos " | lolcat
+fi 
+if [ $saf = 00 ] || [ $saf = 00 ]
+then 
+echo "mau keluar ya kak "
+sleep 1
+echo "yaudah kalo keluar sampai jumpa kak "
+echo " tunggu update lagi ya"
+sleep 1
+echo "Asalamualaikum"
+fi 
 exit
 fi
