@@ -78,7 +78,6 @@ echo "itulah hukum karma bagi islam "
 sleep 1
 echo "sekian Asalamualaikum"
 fi 
-exit
 if [ $saf = 2 ] || [ $saf = 2 ]
 then 
 pkg install git
@@ -114,6 +113,6 @@ mv HnVyQPtR webdav.py
 sleep 1
 chmod 777 webdav.py
 echo "terinstall bos " | lolcat
-fi 
+sleep 1
 exit
 fi
